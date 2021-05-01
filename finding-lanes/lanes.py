@@ -19,7 +19,7 @@ def region_of_interest(image):
 
 
 
-img = cv2.imread("/home/adithya/personal_ws/Udemy_course_practics/finding-lanes/data/images/test_image.jpg")
+img = cv2.imread("/home/adithya/personal_ws/Udemy_course_practics/Adithya_practice_lane_detection/finding-lanes/data/images/test_image.jpg")
 lane_img = np.copy(img)
 canny = canny(lane_img)
 cv2.imshow("result", region_of_interest(canny))
